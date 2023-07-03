@@ -3,7 +3,7 @@ name: Dockerize Web
 on:
   push:
     branches:
-      - development
+      - master
 
   pull_request:
     branches:
