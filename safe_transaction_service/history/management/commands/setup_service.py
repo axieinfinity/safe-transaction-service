@@ -14,13 +14,14 @@ from ...models import IndexingStatus, IndexingStatusType, ProxyFactory, SafeMast
 
 
 # Overwrite Keys for Master Copies and Proxy Factories for Ronin Testnet and Mainnet.
+# Tuple should be address, block number, and version.
 MASTER_COPIES[EthereumNetwork.PUBLICMINT_MAINNET] = [
-    ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 7938928, "1.3.0"),
+    ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 7938928, "1.3.0+L2"),
     ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 7938928, "1.3.0"),
 ]
 
 MASTER_COPIES[EthereumNetwork.EDGEWARE_MAINNET] = [
-    ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 807_225, "1.3.0"),
+    ("0x3E5c63644E683549055b9Be8653de26E0B4CD36E", 807_225, "1.3.0+L2"),
     ("0xd9Db270c1B5E3Bd161E8c8503c55cEABeE709552", 807_225, "1.3.0"),
 ]
 
